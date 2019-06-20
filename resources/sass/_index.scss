@@ -1,0 +1,112 @@
+body 
+{
+	font-family: $font-family-sans-serif;
+	background-image: url('/img/1.jpg');
+}
+
+.table-content
+{
+	margin-top: 20px;
+	margin-left: 3px;
+	border-top: 3px solid #212529;
+}
+
+.table-content .table-header
+{
+	text-transform: capitalize;
+	background-color: $blacked;
+	color: #FFF;
+}
+
+.table-content .table-body
+{
+	background-color: #fff;
+}
+
+.search-input
+{
+	border: 2px solid $blacked;
+	padding: 7px;
+	border-radius: 5px 5px 5px;
+}
+
+.content-title-search .left
+{
+	text-transform: capitalize;
+	display: inline-block;
+	color: #fff;
+	text-shadow: 1px 1px 0px #000;
+}
+
+.btn-create
+{
+	background-color: #fff;
+	border: 2px solid #343A40;
+	color: #343A40;
+}
+
+.btn-create:hover
+{
+	background-color: #CECECE;
+	font-weight: bold;
+	transition: background-color .3s;
+}
+
+a:hover
+{
+	color: $blacked;
+}
+
+
+form
+{
+	display: inline;
+}
+
+.content-show
+{
+	background-color: #fff;
+	margin: 15px auto;
+	width: 760px;
+	padding: 30px;
+	border: 1px solid #C7C8C9;
+}
+
+.content-show-boletin
+{
+	background-color: #fff;
+	margin: 15px auto;
+	width: 760px;
+	height: 580px;
+	padding: 30px;
+	border: 1px solid #C7C8C9;
+	overflow: scroll;
+}
+
+.text-title
+{
+	color: #fff;
+	margin-left: 30px;
+	text-shadow: 1px 1px 0px #000;
+}
+.table-roles
+{
+	width: 25%;
+}
+.info-msg
+{
+	margin: auto;
+	margin-bottom: 15px;
+	padding-bottom: 7px;
+	width: 580px;
+	color: #fff;
+	text-shadow: 1px 1px 0px #000;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+}
+
+.check-seccions
+{
+	height: 80px;
+	overflow: scroll;
+}
