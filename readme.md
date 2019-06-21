@@ -7,6 +7,8 @@ Sistema de notas.
 Es simplemente utilizar los siguientes comandos en CMD dentro de la raiz del proyecto.
 
 ```
+composer install
+npm install
  php artisan migrate:refresh --seed
  npm run dev
 ```
